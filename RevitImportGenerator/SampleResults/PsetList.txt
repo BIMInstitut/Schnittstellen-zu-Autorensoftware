@@ -1,0 +1,132 @@
+PropertySet:	PSet_BUW_MRL_WandRohbau	|	IfcWall
+	Kategorie	Enum	
+	Lage Modellelement	String	
+	Tragende Funktion	Boolean	
+	GUID	String	
+	Klasse	String	
+	Geschoss	String	
+	Länge	Real	
+	Dicke	Real	
+	Höhe Gesamtaufbau	Real	
+	Fläche	Real	
+	Volumen	Real	
+	Bewehrungsgrad	Real	
+	Rohdichten	Real	
+	bewertetes Schalldämmmass Rw	Real	
+	Baustoff	Enum	
+	Art Aussenwand	Enum	
+	Typ nach Rohdichte	Enum	
+	Typ nach Bewehrung	Enum	
+	Sichtqualität	Enum	
+	Festigkeitsklasse	Enum	
+	WU Beton	Boolean	
+	Expositionsklasse	String	
+	Feuerwiderstandklasse	Enum	
+	Feuchteschutz	Boolean	
+	Strahlenschutz	Boolean	
+	Farbton	String	
+	Befestigungsart	Enum	
+	Sichtbarkeit Befestigung	Enum	
+	Produktbezeichnung	String	
+	Baujahr	Entity	
+	Abnahme	Entity	
+	Ende Gewährleistung	Entity	
+	Bauweise	String	
+PropertySet:	Pset_BUW_MRL_Wandbekleidung	|	IfcCovering
+	Kategorie	Enum	
+	Lage Modellelement	String	
+	Tragende Funktion	Boolean	
+	GUID	String	
+	Klasse	String	
+	Geschoss	String	
+	Oberfläche	Real	
+	Gesamtaufbaudicke	Real	
+	Baustoff	Enum	
+	Baustoff Unterkonstruktion	Enum	
+	Farbton	String	
+	Befestigungsart	Enum	
+	Sichtbarkeit Befestigung	Enum	
+	Brandschutzklasse	Enum	
+	Hersteller	String	
+	Produktbezeichnung	String	
+	Baujahr	Entity	
+	Inbetriebnahme	Entity	
+	Ende Gewährleistung	Entity	
+PropertySet:	Pset_BUW_MRL_Bodenbelag	|	IfcCovering
+	Kategorie	Enum	
+	Lage Modellelement	String	
+	GUID	String	
+	Klasse	String	
+	Geschoss	String	
+	Rutschfestigkeitsklasse	Enum	
+	Ableitfähigkeit	Boolean	
+	Absorptionskoeffizient	Real	
+	Beläge	Enum	
+	Tragschicht 	Enum	
+	Trennlage	Enum	
+	Hersteller	String	
+	Produktbezeichnung	String	
+	Baujahr	Entity	
+	Inbetriebnahme	Entity	
+	Ende Gewährleistung	Entity	
+PropertySet:	Pset_BUW_MRL_DeckenDachbekleidung	|	IfcCovering
+	Kategorie	Enum	
+	Lage Modellelement	String	
+	GUID	String	
+	Klasse	String	
+	Geschoss	String	
+	Tragende Funktion	Boolean	
+	Dicke	Real	
+	Oberfläche	Real	
+	Umfang	Real	
+	Baustoff Bekleidung	Enum	
+	Baustoff Unterkonstruktione	Enum	
+	Dicke Dämmstoff	Real	
+	bewertetes Schalldämmmass dB Rw	Real	
+	Wärmeleitfähigkeit	Real	
+	Dämmstoff	Enum	
+	Feuerwiderstandklasse	Enum	
+	Belastung	Real	
+	Einbaulage	Enum	
+	Befestigungsuntergrund	Enum	
+	Hersteller	String	
+	Produktbezeichnung	String	
+	Baujahr	Entity	
+	Inbetriebnahme	Entity	
+	Ende Gewährleistung	Entity	
+PropertySet:	Pset_BUW_MRL_Fenster	|	IfcWindow
+	Kategorie	Enum	
+	Lage Modellelement	String	
+	GUID	String	
+	Klasse	String	
+	Geschoss	String	
+	Brüstungshöhe	Real	
+	Lichte Öffnungsbreite	Real	
+	Lichte Öffnungshöhe	Real	
+	Gesamtblendrahmenbreite	Real	
+	Gesamtblendrahmenhöhe	Real	
+	Baustoff Rahmen	Enum	
+	Baustoff Verglasung	Enum	
+	Klasse Einbruchhemmung	Enum	
+	Klasse Explosionshemmung	Enum	
+	Klasse Beschusshemmung	Enum	
+	Klasse Schlagregendichte	Enum	
+	Energiedurchlassgrad gWert	Real	
+	Wärmedurchgangskoeffizient Uw	Real	
+	Notausgang	Boolean	
+	Öffnungsrichtung	Enum	
+	Anschlagart	Enum	
+	Feuerwiderstandklasse	Enum	
+	Leibungsfläche	Real	
+	Sonnenschutz aussen	Boolean	
+	Rauchabzug	Boolean	
+	Bauart Fenster	Enum	
+	Öffungsart	Enum	
+	Fensterteile	Enum	
+	Fensterbank	Boolean	
+	Sturz	Boolean	
+	Hersteller	String	
+	Produktbezeichnung	String	
+	Baujahr	Entity	
+	Inbetriebnahme	Entity	
+	Ende Gewährleistung	Entity	

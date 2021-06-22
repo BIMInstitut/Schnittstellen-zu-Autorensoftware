@@ -1,0 +1,138 @@
+# This is a Revit shared parameter file.
+# Do not edit manually.
+*META	VERSION	MINVERSION
+META	2	1
+*GROUP	ID	NAME
+GROUP	3	PSet_BUW_MRL_WandRohbau
+GROUP	4	Pset_BUW_MRL_Wandbekleidung
+GROUP	5	Pset_BUW_MRL_Bodenbelag
+GROUP	6	Pset_BUW_MRL_DeckenDachbekleidung
+GROUP	7	Pset_BUW_MRL_Fenster
+*PARAM	GUID	NAME	DATATYPE	DATACATEGORY	GROUP	VISIBLE	DESCRIPTION	USERMODIFIABLE
+PARAM	2e922b8f-0948-4bd1-b6d3-597c6cf74811	Kategorie	Enum		3	1		1
+PARAM	e4366a75-61e6-46d0-ab89-fb28f461b0a9	Lage Modellelement	TEXT		3	1		1
+PARAM	7ccd7709-e1ae-49bd-8885-365f446eac23	Tragende Funktion	YESNO		3	1		1
+PARAM	49656126-65de-4751-9582-a437765feb83	GUID	TEXT		3	1		1
+PARAM	139c3ae8-c6be-43ba-95b1-0394f979f107	Klasse	TEXT		3	1		1
+PARAM	de6399bc-298a-4e34-8ee3-c88fd3f1883c	Geschoss	TEXT		3	1		1
+PARAM	16373d6a-2617-49bc-8253-c4e93d68d132	Länge	NUMBER		3	1		1
+PARAM	9399c1ca-d63b-4ea8-aa27-677620d8fea2	Dicke	NUMBER		3	1		1
+PARAM	b60e4c59-f050-4eaf-b1fc-55543ff6d56b	Höhe Gesamtaufbau	NUMBER		3	1		1
+PARAM	9a6057b2-6ac1-4b30-b177-f1d362220b1b	Fläche	NUMBER		3	1		1
+PARAM	e4bf5d53-0a82-4814-a5e2-d9f7dc11f262	Volumen	NUMBER		3	1		1
+PARAM	9aa1f547-3428-4be1-800c-24cb1f900abf	Bewehrungsgrad	NUMBER		3	1		1
+PARAM	c42e4e0d-a2ed-4d06-99ec-ccaf33442f54	Rohdichten	NUMBER		3	1		1
+PARAM	0efc74a9-d51c-4951-809a-d6ec0304fb0f	bewertetes Schalldämmmass Rw	NUMBER		3	1		1
+PARAM	06510b5a-3543-4b13-81c4-f34d61fbb843	Baustoff	Enum		3	1		1
+PARAM	0d233f73-c9a0-4896-a517-129728f55608	Art Aussenwand	Enum		3	1		1
+PARAM	59243be4-6a68-4562-9ccc-c185d0071ed9	Typ nach Rohdichte	Enum		3	1		1
+PARAM	c770d875-fda6-4716-8480-9d24be6d6543	Typ nach Bewehrung	Enum		3	1		1
+PARAM	f63f6135-5482-45cc-833d-e07e56a18450	Sichtqualität	Enum		3	1		1
+PARAM	257892a7-5a12-4284-8e72-3f0cac8bc798	Festigkeitsklasse	Enum		3	1		1
+PARAM	beb9b551-228f-4ef5-86d5-fab586c2e5b3	WU Beton	YESNO		3	1		1
+PARAM	9b70dc36-1bdd-4ea3-b8c0-e5645a78b36e	Expositionsklasse	TEXT		3	1		1
+PARAM	f517b6ca-3e3a-4c6c-8007-f336894354b7	Feuerwiderstandklasse	Enum		3	1		1
+PARAM	097678af-e8b4-4b16-b973-b4a2a3b06313	Feuchteschutz	YESNO		3	1		1
+PARAM	9030c877-bfe4-43df-8df6-61f26bec6492	Strahlenschutz	YESNO		3	1		1
+PARAM	4403bae8-13ce-4519-8efe-e0b95a5d6f6d	Farbton	TEXT		3	1		1
+PARAM	757076b4-4580-4b70-8ace-7069d55380c7	Befestigungsart	Enum		3	1		1
+PARAM	ad7e85f8-3d83-412f-8218-11f6dc9cf190	Sichtbarkeit Befestigung	Enum		3	1		1
+PARAM	35f7d489-099c-4eab-be33-f9321d7744bc	Produktbezeichnung	TEXT		3	1		1
+PARAM	26dbc203-cf74-4c78-967c-e3474b809380	Baujahr	NUMBER		3	1		1
+PARAM	7488ee81-2ffc-41e0-95e4-e00d05ce41b0	Abnahme	NUMBER		3	1		1
+PARAM	b6abd8c4-5e76-428e-88c6-9aff9ed976f7	Ende Gewährleistung	NUMBER		3	1		1
+PARAM	71e1f790-08a0-42cd-b3b7-6c034a95036a	Bauweise	TEXT		3	1		1
+PARAM	2e922b8f-0948-4bd1-b6d3-597c6cf74811	Kategorie	Enum		4	1		1
+PARAM	e4366a75-61e6-46d0-ab89-fb28f461b0a9	Lage Modellelement	TEXT		4	1		1
+PARAM	7ccd7709-e1ae-49bd-8885-365f446eac23	Tragende Funktion	YESNO		4	1		1
+PARAM	49656126-65de-4751-9582-a437765feb83	GUID	TEXT		4	1		1
+PARAM	139c3ae8-c6be-43ba-95b1-0394f979f107	Klasse	TEXT		4	1		1
+PARAM	de6399bc-298a-4e34-8ee3-c88fd3f1883c	Geschoss	TEXT		4	1		1
+PARAM	b11cc5a6-1ab1-4ffc-9a9d-0084b2c9378b	Oberfläche	NUMBER		4	1		1
+PARAM	037910ba-3da9-48b2-80f1-e7c29d008caf	Gesamtaufbaudicke	NUMBER		4	1		1
+PARAM	06510b5a-3543-4b13-81c4-f34d61fbb843	Baustoff	Enum		4	1		1
+PARAM	b31b39f3-7bc1-4aae-bf97-c5cf5701a205	Baustoff Unterkonstruktion	Enum		4	1		1
+PARAM	4403bae8-13ce-4519-8efe-e0b95a5d6f6d	Farbton	TEXT		4	1		1
+PARAM	757076b4-4580-4b70-8ace-7069d55380c7	Befestigungsart	Enum		4	1		1
+PARAM	ad7e85f8-3d83-412f-8218-11f6dc9cf190	Sichtbarkeit Befestigung	Enum		4	1		1
+PARAM	906f5b13-5be4-481b-b856-af53a977844f	Brandschutzklasse	Enum		4	1		1
+PARAM	fda87e4b-a0cb-4044-b8be-87bab9c29362	Hersteller	TEXT		4	1		1
+PARAM	35f7d489-099c-4eab-be33-f9321d7744bc	Produktbezeichnung	TEXT		4	1		1
+PARAM	26dbc203-cf74-4c78-967c-e3474b809380	Baujahr	NUMBER		4	1		1
+PARAM	4db462f5-6399-46e2-8407-853a1f542ff2	Inbetriebnahme	NUMBER		4	1		1
+PARAM	b6abd8c4-5e76-428e-88c6-9aff9ed976f7	Ende Gewährleistung	NUMBER		4	1		1
+PARAM	2e922b8f-0948-4bd1-b6d3-597c6cf74811	Kategorie	Enum		5	1		1
+PARAM	e4366a75-61e6-46d0-ab89-fb28f461b0a9	Lage Modellelement	TEXT		5	1		1
+PARAM	49656126-65de-4751-9582-a437765feb83	GUID	TEXT		5	1		1
+PARAM	139c3ae8-c6be-43ba-95b1-0394f979f107	Klasse	TEXT		5	1		1
+PARAM	de6399bc-298a-4e34-8ee3-c88fd3f1883c	Geschoss	TEXT		5	1		1
+PARAM	4cd60018-12fb-409a-9e0c-1adca16b6800	Rutschfestigkeitsklasse	Enum		5	1		1
+PARAM	5e990125-6de7-41db-8f56-4eea64f7eb7c	Ableitfähigkeit	YESNO		5	1		1
+PARAM	c6e287e1-f9fc-49cc-91fa-8c78894dee10	Absorptionskoeffizient	NUMBER		5	1		1
+PARAM	460906a0-8961-4da4-8259-9beb2b4aef5a	Beläge	Enum		5	1		1
+PARAM	8c72711c-48fd-4150-bfae-91702407dec4	Tragschicht 	Enum		5	1		1
+PARAM	1d2f5a30-6736-43a5-b53a-f1f9844a80fb	Trennlage	Enum		5	1		1
+PARAM	fda87e4b-a0cb-4044-b8be-87bab9c29362	Hersteller	TEXT		5	1		1
+PARAM	35f7d489-099c-4eab-be33-f9321d7744bc	Produktbezeichnung	TEXT		5	1		1
+PARAM	26dbc203-cf74-4c78-967c-e3474b809380	Baujahr	NUMBER		5	1		1
+PARAM	4db462f5-6399-46e2-8407-853a1f542ff2	Inbetriebnahme	NUMBER		5	1		1
+PARAM	b6abd8c4-5e76-428e-88c6-9aff9ed976f7	Ende Gewährleistung	NUMBER		5	1		1
+PARAM	2e922b8f-0948-4bd1-b6d3-597c6cf74811	Kategorie	Enum		6	1		1
+PARAM	e4366a75-61e6-46d0-ab89-fb28f461b0a9	Lage Modellelement	TEXT		6	1		1
+PARAM	49656126-65de-4751-9582-a437765feb83	GUID	TEXT		6	1		1
+PARAM	139c3ae8-c6be-43ba-95b1-0394f979f107	Klasse	TEXT		6	1		1
+PARAM	de6399bc-298a-4e34-8ee3-c88fd3f1883c	Geschoss	TEXT		6	1		1
+PARAM	7ccd7709-e1ae-49bd-8885-365f446eac23	Tragende Funktion	YESNO		6	1		1
+PARAM	9399c1ca-d63b-4ea8-aa27-677620d8fea2	Dicke	NUMBER		6	1		1
+PARAM	b11cc5a6-1ab1-4ffc-9a9d-0084b2c9378b	Oberfläche	NUMBER		6	1		1
+PARAM	489773b7-b829-4554-8beb-46fd79943e8d	Umfang	NUMBER		6	1		1
+PARAM	0a71e11d-3f35-4bf3-a32e-9694e1b3714d	Baustoff Bekleidung	Enum		6	1		1
+PARAM	31e0f5ff-b0e0-46f2-86ef-e0fc26d5ba8e	Baustoff Unterkonstruktione	Enum		6	1		1
+PARAM	2f4032e7-567c-4efa-bc27-70ad51288b9f	Dicke Dämmstoff	NUMBER		6	1		1
+PARAM	b69d7711-b334-4c69-9344-ad407aead0ee	bewertetes Schalldämmmass dB Rw	NUMBER		6	1		1
+PARAM	9765a922-3357-487d-97c1-25dc75226533	Wärmeleitfähigkeit	NUMBER		6	1		1
+PARAM	a3a209af-ff4d-4a48-b563-cd3f8a83fdd7	Dämmstoff	Enum		6	1		1
+PARAM	f517b6ca-3e3a-4c6c-8007-f336894354b7	Feuerwiderstandklasse	Enum		6	1		1
+PARAM	538aa024-7b03-4ddf-8499-d2d4a350ebda	Belastung	NUMBER		6	1		1
+PARAM	35549912-135b-4723-837c-1b59cf765db7	Einbaulage	Enum		6	1		1
+PARAM	35ee52f8-d549-420c-a1bd-60ef752a9390	Befestigungsuntergrund	Enum		6	1		1
+PARAM	fda87e4b-a0cb-4044-b8be-87bab9c29362	Hersteller	TEXT		6	1		1
+PARAM	35f7d489-099c-4eab-be33-f9321d7744bc	Produktbezeichnung	TEXT		6	1		1
+PARAM	26dbc203-cf74-4c78-967c-e3474b809380	Baujahr	NUMBER		6	1		1
+PARAM	4db462f5-6399-46e2-8407-853a1f542ff2	Inbetriebnahme	NUMBER		6	1		1
+PARAM	b6abd8c4-5e76-428e-88c6-9aff9ed976f7	Ende Gewährleistung	NUMBER		6	1		1
+PARAM	2e922b8f-0948-4bd1-b6d3-597c6cf74811	Kategorie	Enum		7	1		1
+PARAM	e4366a75-61e6-46d0-ab89-fb28f461b0a9	Lage Modellelement	TEXT		7	1		1
+PARAM	49656126-65de-4751-9582-a437765feb83	GUID	TEXT		7	1		1
+PARAM	139c3ae8-c6be-43ba-95b1-0394f979f107	Klasse	TEXT		7	1		1
+PARAM	de6399bc-298a-4e34-8ee3-c88fd3f1883c	Geschoss	TEXT		7	1		1
+PARAM	a1d6b8c4-cf68-4dd9-959f-8384bbe34188	Brüstungshöhe	NUMBER		7	1		1
+PARAM	8c4f3bd8-bcba-492f-8b89-5720ebcf76f9	Lichte Öffnungsbreite	NUMBER		7	1		1
+PARAM	787694a4-2043-4074-8056-0e9b4eb9082c	Lichte Öffnungshöhe	NUMBER		7	1		1
+PARAM	29b0072c-7639-4d24-a518-7b2b2e7b0316	Gesamtblendrahmenbreite	NUMBER		7	1		1
+PARAM	aa16bd90-1043-4817-a63e-c6b93d2269bb	Gesamtblendrahmenhöhe	NUMBER		7	1		1
+PARAM	ac892f7c-6f17-41ff-beb4-99324a49c47a	Baustoff Rahmen	Enum		7	1		1
+PARAM	ec59259e-e8fd-47ff-be67-ccd47f9db7cf	Baustoff Verglasung	Enum		7	1		1
+PARAM	d8cd5e19-cbfd-4317-b10b-a0c1231874b8	Klasse Einbruchhemmung	Enum		7	1		1
+PARAM	de88dd45-d558-4b8b-98df-d67dbf8ed187	Klasse Explosionshemmung	Enum		7	1		1
+PARAM	e3d47446-e099-4504-bcfd-e10d9b258d55	Klasse Beschusshemmung	Enum		7	1		1
+PARAM	648596f2-579e-48a6-9d93-ee6c4ad29b24	Klasse Schlagregendichte	Enum		7	1		1
+PARAM	257f1b98-3680-4c7c-b92b-605da92bb595	Energiedurchlassgrad gWert	NUMBER		7	1		1
+PARAM	7c13c758-bd31-449f-87a6-47a254d7fadf	Wärmedurchgangskoeffizient Uw	NUMBER		7	1		1
+PARAM	651039ce-1d10-424d-be9d-8e9c75f01382	Notausgang	YESNO		7	1		1
+PARAM	c7e8e621-b80b-4f43-bd8f-9fe43f7ba678	Öffnungsrichtung	Enum		7	1		1
+PARAM	f19f4094-dd7a-4ecd-8cb1-55b48eaa480f	Anschlagart	Enum		7	1		1
+PARAM	f517b6ca-3e3a-4c6c-8007-f336894354b7	Feuerwiderstandklasse	Enum		7	1		1
+PARAM	1abacde4-a267-4337-bfa1-4df38ccf6c52	Leibungsfläche	NUMBER		7	1		1
+PARAM	d4cb9091-e852-4d9d-afc7-8854c34e2740	Sonnenschutz aussen	YESNO		7	1		1
+PARAM	fdd903b4-e552-4e3c-9271-09ec563a6034	Rauchabzug	YESNO		7	1		1
+PARAM	bc2b6575-e589-4be5-a015-6aa7f4c835e1	Bauart Fenster	Enum		7	1		1
+PARAM	24b34625-5426-4c7c-8dbd-88db85add064	Öffungsart	Enum		7	1		1
+PARAM	31db7151-041e-4c2f-a1c8-d008c5616bf3	Fensterteile	Enum		7	1		1
+PARAM	44f366ff-3d4b-414f-a34c-60d4b5e5ad05	Fensterbank	YESNO		7	1		1
+PARAM	81680982-d780-4c9a-aa2a-8350cbd0bd70	Sturz	YESNO		7	1		1
+PARAM	fda87e4b-a0cb-4044-b8be-87bab9c29362	Hersteller	TEXT		7	1		1
+PARAM	35f7d489-099c-4eab-be33-f9321d7744bc	Produktbezeichnung	TEXT		7	1		1
+PARAM	26dbc203-cf74-4c78-967c-e3474b809380	Baujahr	NUMBER		7	1		1
+PARAM	4db462f5-6399-46e2-8407-853a1f542ff2	Inbetriebnahme	NUMBER		7	1		1
+PARAM	b6abd8c4-5e76-428e-88c6-9aff9ed976f7	Ende Gewährleistung	NUMBER		7	1		1
