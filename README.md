@@ -1,7 +1,7 @@
 # Schnittstellen-zu-Autorensoftware
 
 --Deutsch--<br />
-Ziel ist es, Schnittstellen zwischen der BUW-Prozessdatenbank (BUW-Datenbank) und Autorensoftwares wie Revit oder ArchiCAD zu entwickeln, um den automatischen Import der erforderlichen Parameter aus dem Exchange Requirement (ER) in BIM-Modelle zu erreichen.
+Ziel ist es, Schnittstellen zwischen der BUW-Prozessdatenbank (BUW-Datenbank) und Autorensoftwares, wie Revit oder ArchiCAD, zu entwickeln, um den automatischen Import der erforderlichen Parameter aus den Exchange Requirements (ER) in BIM-Modelle zu ermöglichen.
 
 
 --English--<br />
